@@ -3,11 +3,11 @@
     <q-header class="bg-gradient" height-hint="58" reveal>
       <q-toolbar class="row justify-center q-pa-md q-mb-xl">
         <!-- Logo -->
-        <div class="col-md-3 col-xs-10 text-center">
+        <div class="col-md-3 col-xs text-center">
           <q-img
-            src="~assets/logoCompletaBrancaT.png"
-            width="150px"
-            height="80px"
+            src="~assets/logoCompletaPretaT.png"
+            width="200px"
+            height="110px"
           />
         </div>
 
@@ -19,13 +19,17 @@
         <!-- Menu Desktop -->
         <div class="col-md-5 self-center" v-else>
           <div class="row q-gutter-md hidden-xs">
-            <a href="#" class="custom-link text-weight-light text-h6">Sobre</a>
+            <a href="/" class="custom-link text-weight-light text-h6">Sobre</a>
 
-            <a href="#" class="custom-link text-weight-light text-h6">Pautas</a>
-            <a href="#" class="custom-link text-weight-light text-h6"
+            <a href="/pautas" class="custom-link text-weight-light text-h6"
+              >Pautas</a
+            >
+            <a
+              href="/agendamentos"
+              class="custom-link text-weight-light text-h6"
               >Agendamentos</a
             >
-            <a href="#" class="custom-link text-weight-light text-h6"
+            <a href="/localizacao" class="custom-link text-weight-light text-h6"
               >Localização</a
             >
           </div>
@@ -37,22 +41,26 @@
       <q-list>
         <q-item clickable v-ripple>
           <q-item-section>
-            <a href="#" class="custom-link-mobile text-h6">Sobre</a>
+            <a href="/" class="custom-link-mobile text-h6">Sobre</a>
           </q-item-section>
         </q-item>
         <q-item clickable v-ripple>
           <q-item-section>
-            <a href="#" class="custom-link-mobile text-h6">Pautas</a>
+            <a href="/pautas" class="custom-link-mobile text-h6">Pautas</a>
           </q-item-section>
         </q-item>
         <q-item clickable v-ripple>
           <q-item-section>
-            <a href="#" class="custom-link-mobile text-h6">Método</a>
+            <a href="/agendamentos" class="custom-link-mobile text-h6"
+              >Método</a
+            >
           </q-item-section>
         </q-item>
         <q-item clickable v-ripple>
           <q-item-section>
-            <a href="#" class="custom-link-mobile text-h6">Consulta</a>
+            <a href="/localizacao" class="custom-link-mobile text-h6"
+              >Consulta</a
+            >
           </q-item-section>
         </q-item>
       </q-list>
