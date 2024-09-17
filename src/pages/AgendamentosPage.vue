@@ -3,6 +3,7 @@
     <!-- AGENDAMENTOS -->
     <div class="row justify-center q-pa-xl">
       <div class="col-md-8 col-xs-12">
+        <!-- Título -->
         <div class="row q-mb-md justify-center items-center">
           <div class="col-md col-xs movimento-L">
             <hr class="line-secondary" />
@@ -17,8 +18,39 @@
           </div>
         </div>
 
-        <div class="row q-mt-xl q-gutter-md justify-center">
-          <div class="col-md-6 col-xs-12">
+        <!-- Atendimentos -->
+        <div class="row justify-center">
+          <div class="col-md-6 col-xs self-center">
+            <div class="row">
+              <div class="col-md-12 movimento-L">
+                <span class="text-subtitle1"><li>Atendimento Online</li> </span>
+
+                <span>
+                  Horário em aberto, a depender da disponibilidade de cada dia,
+                  tratar diretamente por whatsapp
+                </span>
+              </div>
+            </div>
+
+            <div class="row q-mt-lg">
+              <div class="col-md-12 movimento-L">
+                <span class="text-subtitle1"
+                  ><li>Atendimento presencial</li></span
+                >
+
+                <span> Os atendimentos são aos sábados das 07:00 as 18:00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-xs-6 movimento-R">
+            <q-img class="format-img" src="~assets/agendamento.jpeg"></q-img>
+          </div>
+        </div>
+
+        <!-- Formulário -->
+        <div class="row q-mt-xl">
+          <div class="col-md-12 col-xs-12">
             <q-form @submit="submitForm" class="q-mb-md q-gutter-md">
               <div class="row">
                 <div class="col-md-12 col-xs-12">
@@ -101,10 +133,6 @@
                 </div>
               </div>
             </q-form>
-          </div>
-
-          <div class="col-md-3 col-xs-6">
-            <q-img class="format-img" src="~assets/agendamento.jpeg"></q-img>
           </div>
         </div>
       </div></div

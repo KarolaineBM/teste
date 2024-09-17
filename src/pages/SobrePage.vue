@@ -18,33 +18,90 @@
         </div>
 
         <!-- Informações -->
-        <div class="row justify-center items-center q-gutter-md">
-          <div class="col-md-6 col-xs-12">
+        <div class="row justify-center items-center q-gutter-md q-mt-md">
+          <div class="col-md-7 col-xs-12">
             <div class="row justify-center">
-              <div class="col-md-12 col-xs text-center">
-                <span>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                  sapiente adipisci. Ullam, aut ex rem illum magni, ipsa,
-                  voluptatem laudantium atque delectus exercitationem labore
-                  odio necessitatibus at asperiores sapiente sint.
+              <div class="col-md-12 col-xs text-center movimento-L">
+                <span class="text-subtitle1">
+                  <strong class="text-primary"
+                    >Primeiramente sejam muito bem-vindos !</strong
+                  >
+
                   <br /><br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                  sapiente adipisci. Ullam, aut ex rem illum magni, ipsa,
-                  voluptatem laudantium atque delectus exercitationem labore
-                  odio necessitatibus at asperiores sapiente sint.
+                  Me chamo
+                  <strong
+                    class="bg-secondary text-white q-pa-xs"
+                    style="border-radius: 50px"
+                    >Aressa</strong
+                  >, sou Médica Pós Graduada em Psiquiatria e em Saúde de
+                  Família e Comunidade, áreas as quais venho atuando desde a
+                  minha formação em 2018.
+
+                  <br /><br />
+
+                  Ao longo desses anos e, principalmente após o cenário
+                  pandêmico que vivemos nos últimos anos, percebi que a saúde
+                  mental do mundo precisava de atenção!
+
+                  <br /><br />
+
+                  Vendo tantas pessoas que amo enfrentando dores invisíveis aos
+                  olhos e presenciando tantas outras que também sofrem por
+                  questões psíquicas muitas vezes incompreendidas, resolvi então
+                  me dedicar a esta área que de fato ganhou a minha atenção e
+                  que tem o meu coração.
                 </span>
               </div>
             </div>
           </div>
 
           <!-- Coluna de imagem -->
-          <div class="col-md-4 col-xs-12">
+          <div class="col-md-3 col-xs-12">
             <div class="row justify-center items-center q-col-gutter-sm">
               <div class="col-md col-xs-6 text-center movimento-R">
+                <q-img class="format-img" src="~assets/sobre2.jpeg" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-center items-center q-gutter-md q-mt-lg">
+          <!-- Coluna de imagem -->
+          <div class="col-md-3 col-xs-12">
+            <div class="row justify-center items-center q-col-gutter-sm">
+              <div class="col-md col-xs-6 text-center movimento-L">
                 <q-img class="format-img" src="~assets/sobre.jpeg" />
               </div>
-              <div class="col-md col-xs-6 text-center movimento-R">
-                <q-img class="format-img" src="~assets/sobre2.jpeg" />
+            </div>
+          </div>
+
+          <div class="col-md-7 col-xs-12">
+            <div class="row justify-center">
+              <div class="col-md-12 col-xs text-center movimento-R">
+                <span class="text-subtitle1">
+                  Estou em processo de formação em Medicina Endocanabinoide pela
+                  We Cann Academy e, em paralelo, também tenho me dedicado no
+                  aprimoramento para realização de várias formas de
+                  Psicoterapias, áreas as quais acredito que andam de mãos dadas
+                  com a Psiquiatria Tradicional e que potencializam e ampliam as
+                  diversas formas para um tratamento eficaz.
+                  <br /><br />
+
+                  Por aqui, a Medicina Integrativa se faz presente tendo como
+                  objetivo a busca pelo Equilíbrio Corpo-Mente-Espirito, como um
+                  todo.
+                  <br /><br />
+
+                  Por fim, espero que juntos façamos um excelente trabalho em
+                  prol da sua saúde e bem-estar.
+
+                  <br /><br />
+
+                  <strong class="text-primary">
+                    Sintam-se acolhidos e será um imenso prazer poder
+                    atendê-los.
+                  </strong>
+                </span>
               </div>
             </div>
           </div>
