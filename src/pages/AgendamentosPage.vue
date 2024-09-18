@@ -19,39 +19,65 @@
         </div>
 
         <!-- Atendimentos -->
-        <div class="row justify-center">
-          <div class="col-md-6 col-xs self-center">
-            <div class="row">
-              <div class="col-md-12 movimento-L">
-                <span class="text-subtitle1"><li>Atendimento Online</li> </span>
-
-                <span>
-                  Horário em aberto, a depender da disponibilidade de cada dia,
-                  tratar diretamente por whatsapp
-                </span>
-              </div>
-            </div>
-
-            <div class="row q-mt-lg">
-              <div class="col-md-12 movimento-L">
-                <span class="text-subtitle1"
-                  ><li>Atendimento presencial</li></span
+        <div class="row justify-center q-gutter-md q-mt-lg">
+          <div class="col-md-4 movimento-L">
+            <span class="text-subtitle1 text-primary"
+              ><li>
+                <strong
+                  class="bg-primary text-white q-pa-xs"
+                  style="border-radius: 50px"
+                  >Atendimento Online</strong
                 >
+              </li>
+            </span>
 
-                <span> Os atendimentos são aos sábados das 07:00 as 18:00</span>
-              </div>
-            </div>
+            <span>
+              Horário em aberto, a depender da disponibilidade de cada dia,
+              tratar diretamente por
+              <a
+                href="https://wa.me/5511971714044"
+                target="_blank"
+                class="text-secondary"
+                style="text-decoration: none"
+                >whatsapp</a
+              >.
+            </span>
           </div>
 
-          <div class="col-md-3 col-xs-6 movimento-R">
-            <q-img class="format-img" src="~assets/agendamento.jpeg"></q-img>
+          <div class="col-md-4 movimento-R">
+            <span class="text-subtitle1 text-primary"
+              ><li>
+                <strong
+                  class="bg-primary text-white q-pa-xs"
+                  style="border-radius: 50px"
+                  >Atendimento Presencial</strong
+                >
+              </li></span
+            >
+
+            <span> Os atendimentos são aos sábados das 07:00 s 18:00.</span>
           </div>
         </div>
 
         <!-- Formulário -->
-        <div class="row q-mt-xl">
-          <div class="col-md-12 col-xs-12">
-            <q-form @submit="submitForm" class="q-mb-md q-gutter-md">
+
+        <div class="row q-mt-lg justify-center">
+          <span class="text-h6 text-secondary">Formulário para contato</span>
+        </div>
+
+        <div class="row q-mt-md justify-center">
+          <span class="text-grey"
+            >Gostaríamos de entrar em contato com você. Por favor, insira suas
+            informações e retornaremos em breve!
+          </span>
+        </div>
+
+        <div class="row q-mt-md justify-center q-gutter-md">
+          <div class="col-md-5 col-xs-12 self-center">
+            <q-form
+              @submit="submitForm"
+              class="q-mb-md q-gutter-md justify-center"
+            >
               <div class="row">
                 <div class="col-md-12 col-xs-12">
                   <q-input outlined rounded v-model="name" label="Nome" />
@@ -134,14 +160,21 @@
               </div>
             </q-form>
           </div>
+
+          <div class="col-md-3 col-xs-6 movimento-R">
+            <q-img class="format-img" src="~assets/agendamento.jpeg"></q-img>
+          </div>
         </div>
-      </div></div
-  ></q-page>
+      </div>
+    </div>
+  </q-page>
 </template>
 
 <script setup>
 import { ref } from "vue";
 import { useQuasar } from "quasar";
+
+const imageUrl = ref(null);
 
 // const slideI = ref(1);
 

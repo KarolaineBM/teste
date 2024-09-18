@@ -9,7 +9,7 @@
             <hr class="line-secondary" />
           </div>
 
-          <div class="col-md-4 col-xs-5 text-center">
+          <div class="col-md-4 col-xs-8 text-center">
             <span class="text-h4">Localização</span>
           </div>
 
@@ -19,7 +19,7 @@
         </div>
 
         <div class="row text-center q-mb-md">
-          <div class="col-md-12 col-xs-12">
+          <div class="col-md-12 col-xs-12 movimento-L">
             <span class="text-h6 text-primary"
               >Av. Paulista, 2064 - 21º andar - Bela Vista - São Paulo</span
             >
@@ -28,19 +28,32 @@
 
         <div class="row justify-center">
           <!-- Mapa -->
-          <div class="col-md-12 col-xs-12">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7792246725336!2d-46.65977468446077!3d-23.56445008467656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c544a87f2d%3A0xa3d26fcf12740229!2sAv.%20Paulista%2C%202064%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-200%2C%20Brazil!5e0!3m2!1sen!2sus!4v1694875901942!5m2!1sen!2sus"
-              width="900"
-              height="300"
-              style="border: 0; border-radius: 50px"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+          <div class="col-md-9 col-xs-12 movimento-R">
+            <div
+              style="
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+              "
             >
-            </iframe>
-
-            <!-- <div id="map" style="height: 500px; width: 100%"></div> -->
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7792246725336!2d-46.65977468446077!3d-23.56445008467656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c544a87f2d%3A0xa3d26fcf12740229!2sAv.%20Paulista%2C%202064%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-200%2C%20Brazil!5e0!3m2!1sen!2sus!4v1694875901942!5m2!1sen!2sus"
+                style="
+                  border: 0;
+                  border-radius: 50px;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                "
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
