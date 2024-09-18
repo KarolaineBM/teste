@@ -34,6 +34,37 @@
             >
           </div>
         </div>
+
+        <!-- Botões de Redes Sociais (Desktop) -->
+        <div class="col-md-1 self-center q-gutter-md" v-if="$q.screen.gt.md">
+          <q-btn
+            flat
+            round
+            dense
+            icon="mdi-whatsapp"
+            href="https://wa.me/5511971714044"
+            target="_blank"
+            class="text-white bg-secondary botao"
+          />
+          <q-btn
+            flat
+            round
+            dense
+            icon="mdi-instagram"
+            href="https://www.instagram.com/draaressafernandes"
+            target="_blank"
+            class="text-white bg-secondary botao"
+          />
+          <q-btn
+            flat
+            round
+            dense
+            icon="mdi-email"
+            href="mailto:aressadesouza@gmail.com"
+            target="_blank"
+            class="text-white bg-secondary botao"
+          />
+        </div>
       </q-toolbar>
     </q-header>
 
@@ -63,6 +94,61 @@
             >
           </q-item-section>
         </q-item>
+
+        <div class="col-md col-xs movimento-L q-mt-sm">
+          <hr class="line-secondary" />
+        </div>
+
+        <div class="q-pa-md">
+          <!-- Botões de Redes Sociais (Mobile) -->
+
+          <q-item-label
+            header
+            class="text-h6 text-white text-center"
+            style="border-radius: 50px"
+          >
+            Redes Sociais</q-item-label
+          >
+          <q-item
+            clickable
+            v-ripple
+            href="https://wa.me/5511971714044"
+            target="_blank"
+            class="text-white text-h6 bg-primary"
+            style="border-radius: 50px"
+          >
+            <q-item-section avatar>
+              <q-icon name="mdi-whatsapp" />
+            </q-item-section>
+            <q-item-section>WhatsApp</q-item-section>
+          </q-item>
+          <q-item
+            clickable
+            v-ripple
+            href="https://www.instagram.com/draaressafernandes"
+            target="_blank"
+            class="text-white text-h6 bg-primary q-mt-md"
+            style="border-radius: 50px"
+          >
+            <q-item-section avatar>
+              <q-icon name="mdi-instagram" />
+            </q-item-section>
+            <q-item-section>Instagram</q-item-section>
+          </q-item>
+          <q-item
+            clickable
+            v-ripple
+            href="mailto:aressadesouza@gmail.com"
+            target="_blank"
+            class="text-white text-h6 bg-primary q-mt-md"
+            style="border-radius: 50px"
+          >
+            <q-item-section avatar>
+              <q-icon name="mdi-email" />
+            </q-item-section>
+            <q-item-section>Email</q-item-section>
+          </q-item>
+        </div>
       </q-list>
     </q-drawer>
 
@@ -109,5 +195,18 @@ const drawer = ref(false);
 
 .custom-link-mobile:hover {
   color: #9a786d;
+}
+
+.botao {
+  transition: transform 0.3s ease-in; /* Transição suave */
+}
+
+.botao:hover {
+  transform: scale(1.3); /* Aumenta o botão em 10% */
+}
+.line-secondary {
+  border: none;
+  border-top: 2px solid #ffffff; /* Cor 'secondary' do Quasar */
+  margin: 0;
 }
 </style>

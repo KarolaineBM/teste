@@ -33,7 +33,7 @@
             >
               <q-carousel-slide name="style" class="no-wrap flex-center">
                 <div class="carousel-text-container">
-                  <span>
+                  <span class="text-subtitle1">
                     Pressa. <br /><br />
                     Temos pressa de viver. Pressa em resolver as coisas. <br />
                     Pressa de que tudo aconteça no nosso tempo. <br />

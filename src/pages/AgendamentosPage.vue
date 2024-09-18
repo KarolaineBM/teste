@@ -76,11 +76,11 @@
           <div class="col-md-5 col-xs-12 self-center">
             <q-form
               @submit="submitForm"
-              class="q-mb-md q-gutter-md justify-center"
+              class="q-mb-md q-gutter-md justify-center movimento-L"
             >
               <div class="row">
                 <div class="col-md-12 col-xs-12">
-                  <q-input outlined rounded v-model="name" label="Nome" />
+                  <q-input outlined rounded v-model="nome" label="Nome" />
                 </div>
               </div>
 
@@ -102,11 +102,11 @@
                     outlined
                     rounded
                     v-model="date"
-                    label="Início"
+                    label="Data"
                     mask="##/##/####"
                   >
                     <template v-slot:append>
-                      <q-icon name="event" class="cursor-pointer">
+                      <q-icon nome="event" class="cursor-pointer">
                         <q-popup-proxy
                           cover
                           transition-show="scale"
@@ -134,7 +134,7 @@
                   <q-input
                     outlined
                     rounded
-                    v-model="time"
+                    v-model="hora"
                     label="Hora"
                     type="time"
                   />
@@ -173,52 +173,50 @@
 <script setup>
 import { ref } from "vue";
 import { useQuasar } from "quasar";
+import axios from "axios"; // Certifique-se de importar o axios
 
 const imageUrl = ref(null);
 
-// const slideI = ref(1);
-
 const $q = useQuasar();
 
-const name = ref("");
+const nome = ref("");
 const email = ref("");
 const date = ref("");
-const time = ref("");
+const hora = ref("");
 const obs = ref("");
 
 const submitForm = async () => {
   try {
-    const response = await fetch("https://formspree.io/f/mjkbdgvp", {
-      // Substitua pelo URL do seu formulário
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify({
-        name: name.value,
+    const response = await axios.post(
+      "https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbzGYUe8NE0UeWF3ajC-UPm4KWU30gyaukM1MgC0pA3s_Ekg-3loheVJTTKdDCJxsV1i/exec",
+      {
+        nome: nome.value,
         email: email.value,
         date: date.value,
-        time: time.value,
+        hora: hora.value,
         obs: obs.value,
-      }),
-    });
+      }
+    );
 
-    if (response.ok) {
-      $q.notify({
-        type: "positive",
-        message: "Formulário enviado com sucesso!",
-      });
-      name.value = "";
+    if (!response.ok) {
+      throw new Error("Falha na resposta do servidor");
+    }
+
+    const result = await response.json();
+
+    if (result.status === "Success") {
+      nome.value = "";
       email.value = "";
       date.value = "";
-      time.value = "";
+      hora.value = "";
       obs.value = "";
+
+      alert("Formulário enviado com sucesso!");
     } else {
-      $q.notify({ type: "negative", message: "Falha ao enviar formulário." });
+      throw new Error("Falha no envio do formulário");
     }
   } catch (error) {
-    $q.notify({ type: "negative", message: "Erro ao enviar formulário." });
+    alert("Erro ao enviar formulário: " + error.message);
   }
 };
 </script>

@@ -23,7 +23,7 @@
             <div class="row justify-center">
               <div class="col-md-12 col-xs text-center movimento-L">
                 <span class="text-subtitle1">
-                  <strong class="text-primary"
+                  <strong class="text-h6"
                     >Primeiramente sejam muito bem-vindos !</strong
                   >
 
@@ -33,9 +33,14 @@
                     class="bg-secondary text-white q-pa-xs"
                     style="border-radius: 50px"
                     >Aressa</strong
-                  >, sou Médica Pós Graduada em Psiquiatria e em Saúde de
-                  Família e Comunidade, áreas as quais venho atuando desde a
-                  minha formação em 2018.
+                  >, sou
+                  <strong
+                    class="bg-primary text-white q-pa-xs"
+                    style="border-radius: 50px"
+                    >Médica Pós Graduada em Psiquiatria</strong
+                  >
+                  e em Saúde de Família e Comunidade, áreas as quais venho
+                  atuando desde a minha formação em 2018.
 
                   <br /><br />
 
@@ -79,13 +84,18 @@
             <div class="row justify-center">
               <div class="col-md-12 col-xs text-center movimento-R">
                 <span class="text-subtitle1">
-                  Estou em processo de formação em Medicina Endocanabinoide pela
-                  We Cann Academy e, em paralelo, também tenho me dedicado no
-                  aprimoramento para realização de várias formas de
-                  Psicoterapias, áreas as quais acredito que andam de mãos dadas
-                  com a Psiquiatria Tradicional e que potencializam e ampliam as
-                  diversas formas para um tratamento eficaz.
-                  <br /><br />
+                  Estou em
+                  <strong
+                    class="bg-primary text-white q-pa-xs"
+                    style="border-radius: 50px"
+                    >processo de formação em Medicina Endocanabinoide pela We
+                    Cann Academy</strong
+                  >
+                  e, em paralelo, também tenho me dedicado no aprimoramento para
+                  realização de várias formas de Psicoterapias, áreas as quais
+                  acredito que andam de mãos dadas com a Psiquiatria Tradicional
+                  e que potencializam e ampliam as diversas formas para um
+                  tratamento eficaz. <br /><br />
 
                   Por aqui, a Medicina Integrativa se faz presente tendo como
                   objetivo a busca pelo Equilíbrio Corpo-Mente-Espirito, como um
@@ -97,7 +107,7 @@
 
                   <br /><br />
 
-                  <strong class="text-primary">
+                  <strong class="text-h6">
                     Sintam-se acolhidos e será um imenso prazer poder
                     atendê-los.
                   </strong>

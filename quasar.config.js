@@ -26,7 +26,7 @@ module.exports = configure(function (/* ctx */) {
     // https://github.com/quasarframework/quasar/tree/dev/extras
     extras: [
       // 'ionicons-v4',
-      // 'mdi-v7',
+      "mdi-v7",
       // 'fontawesome-v6',
       // 'eva-icons',
       // 'themify',
@@ -45,6 +45,10 @@ module.exports = configure(function (/* ctx */) {
       },
 
       vueRouterMode: "history", // available values: 'hash', 'history'
+      env: {
+        SUPABASE_KEY:
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ1b2Z0cnptdW1wb3NvbGJzaG9kIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjY2NjM4NTEsImV4cCI6MjA0MjIzOTg1MX0.gqsjEMDlBoItwGBuOOPEULzDEVjKWzs1z71fbPj4K4M",
+      },
       // vueRouterBase,
       // vueDevtools,
       // vueOptionsAPI: false,
@@ -53,7 +57,7 @@ module.exports = configure(function (/* ctx */) {
 
       // publicPath: '/',
       // analyze: true,
-      // env: {},
+
       // rawDefine: {}
       // ignorePublicFolder: true,
       // minify: false,
