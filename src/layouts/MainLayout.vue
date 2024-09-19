@@ -6,8 +6,8 @@
         <div class="col-md-3 col-xs text-center">
           <q-img
             src="~assets/logoCompletaPretaT.png"
-            width="200px"
-            height="110px"
+            width="250px"
+            height="130px"
           />
         </div>
 

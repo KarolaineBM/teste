@@ -160,6 +160,23 @@ module.exports = configure(function (/* ctx */) {
       // extendInjectManifestOptions (cfg) {},
       // extendManifestJson (json) {}
       // extendPWACustomSWConf (esbuildConf) {}
+
+      manifest: {
+        name: `Dra. Aressa Fernandes`,
+        short_name: `Dra. Aressa Fernandes`,
+        description: `Dra. Aressa Fernandes`,
+        display: "standalone",
+        orientation: "portrait",
+        background_color: "#ffffff",
+        theme_color: "#aa1e2c",
+        icons: [
+          {
+            src: "assests/logoRedondaVerde.png",
+            sizes: "16x16",
+            type: "image/png",
+          },
+        ],
+      },
     },
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/developing-cordova-apps/configuring-cordova
@@ -196,7 +213,7 @@ module.exports = configure(function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: "draaressa",
+        appId: "draaressafernandes",
       },
     },
 
