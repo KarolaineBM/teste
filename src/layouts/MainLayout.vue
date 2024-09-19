@@ -36,7 +36,7 @@
         </div>
 
         <!-- Botões de Redes Sociais (Desktop) -->
-        <div class="col-md-1 self-center q-gutter-md" v-if="$q.screen.gt.md">
+        <div class="col-md-2 self-center q-gutter-md" v-if="$q.screen.gt.md">
           <q-btn
             flat
             round
