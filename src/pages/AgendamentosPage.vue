@@ -20,48 +20,68 @@
 
         <!-- Atendimentos -->
         <div class="row justify-center q-gutter-md q-mt-lg">
-          <div class="col-md-4 movimento-L">
-            <span class="text-subtitle1 text-primary"
-              ><li>
-                <strong
-                  class="bg-primary text-white q-pa-xs"
-                  style="border-radius: 50px"
-                  >Atendimento Online</strong
-                >
-              </li>
-            </span>
+          <div class="col-md-5 movimento-L self-center">
+            <div class="row q-mb-xl">
+              <div class="col-md">
+                <span class="text-subtitle1 text-primary"
+                  ><li>
+                    <strong
+                      class="bg-primary text-h6 text-white q-pa-xs"
+                      style="border-radius: 50px"
+                      >Atendimento Online</strong
+                    >
+                  </li>
+                </span>
 
-            <span>
-              Horário em aberto, a depender da disponibilidade de cada dia,
-              tratar diretamente por
-              <a
-                href="https://wa.me/5511971714044"
-                target="_blank"
-                class="text-secondary"
-                style="text-decoration: none"
-                >whatsapp</a
-              >.
-            </span>
+                <span class="text-subtitle1">
+                  Horário em aberto, a depender da disponibilidade de cada dia,
+                  tratar diretamente por
+                  <a
+                    href="https://wa.me/5511971714044"
+                    target="_blank"
+                    class="text-secondary"
+                    style="text-decoration: none"
+                    >whatsapp</a
+                  >.
+                </span>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md q-m">
+                <span class="text-subtitle1 text-primary"
+                  ><li>
+                    <strong
+                      class="bg-primary text-h6 text-white q-pa-xs"
+                      style="border-radius: 50px"
+                      >Atendimento Presencial</strong
+                    >
+                  </li></span
+                >
+
+                <span class="text-subtitle1">
+                  Os atendimentos são aos sábados das 07:00 às 18:00. Para
+                  agendar seu atendimento, entre em contato pelo
+                  <a
+                    href="https://wa.me/5511971714044"
+                    target="_blank"
+                    class="text-secondary"
+                    style="text-decoration: none"
+                    >whatsapp</a
+                  >.</span
+                >
+              </div>
+            </div>
           </div>
 
-          <div class="col-md-4 movimento-R">
-            <span class="text-subtitle1 text-primary"
-              ><li>
-                <strong
-                  class="bg-primary text-white q-pa-xs"
-                  style="border-radius: 50px"
-                  >Atendimento Presencial</strong
-                >
-              </li></span
-            >
-
-            <span> Os atendimentos são aos sábados das 07:00 às 18:00.</span>
+          <div class="col-md-3 col-xs-6 movimento-R">
+            <q-img class="format-img" src="~assets/agendamento.jpeg"></q-img>
           </div>
         </div>
 
         <!-- Formulário -->
 
-        <div class="row q-mt-lg justify-center">
+        <!-- <div class="row q-mt-lg justify-center">
           <span class="text-h6 text-secondary">Formulário</span>
         </div>
 
@@ -70,9 +90,9 @@
             >Gostaríamos de entrar em contato com você. Por favor, insira suas
             informações e retornaremos em breve!
           </span>
-        </div>
+        </div> -->
 
-        <div class="row q-mt-md justify-center q-gutter-md">
+        <!-- <div class="row q-mt-md justify-center q-gutter-md">
           <div class="col-md-5 col-xs-12 self-center">
             <q-form
               @submit="submitForm"
@@ -102,11 +122,11 @@
                     outlined
                     rounded
                     v-model="date"
-                    label="Data"
+                    label="Início"
                     mask="##/##/####"
                   >
                     <template v-slot:append>
-                      <q-icon nome="event" class="cursor-pointer">
+                      <q-icon name="event" class="cursor-pointer">
                         <q-popup-proxy
                           cover
                           transition-show="scale"
@@ -161,10 +181,8 @@
             </q-form>
           </div>
 
-          <div class="col-md-3 col-xs-6 movimento-R">
-            <q-img class="format-img" src="~assets/agendamento.jpeg"></q-img>
-          </div>
-        </div>
+
+        </div> -->
       </div>
     </div>
   </q-page>
@@ -172,53 +190,43 @@
 
 <script setup>
 import { ref } from "vue";
-import { useQuasar } from "quasar";
-import axios from "axios"; // Certifique-se de importar o axios
 
-const imageUrl = ref(null);
+// const nome = ref("");
+// const email = ref("");
+// const date = ref("");
+// const hora = ref("");
+// const obs = ref("");
 
-const $q = useQuasar();
+// const submitForm = async () => {
+//   const response = await fetch(
+//     "https://script.google.com/macros/s/AKfycbwiNsPhPpkR7S5DwdqcfqUu0IRWY8pMLazy6qiRws1pxXSj7DS2iBeRJ8Gkw59noamA/exec",
+//     {
+//       method: "POST",
+//       headers: {
+//         "Content-Type": "application/json",
+//       },
+//       body: JSON.stringify({
+//         nome: nome.value,
+//         email: email.value,
+//         date: date.value,
+//         hora: hora.value,
+//         obs: obs.value,
+//       }),
+//     }
+//   );
 
-const nome = ref("");
-const email = ref("");
-const date = ref("");
-const hora = ref("");
-const obs = ref("");
-
-const submitForm = async () => {
-  try {
-    const response = await axios.post(
-      "https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbzGYUe8NE0UeWF3ajC-UPm4KWU30gyaukM1MgC0pA3s_Ekg-3loheVJTTKdDCJxsV1i/exec",
-      {
-        nome: nome.value,
-        email: email.value,
-        date: date.value,
-        hora: hora.value,
-        obs: obs.value,
-      }
-    );
-
-    if (!response.ok) {
-      throw new Error("Falha na resposta do servidor");
-    }
-
-    const result = await response.json();
-
-    if (result.status === "Success") {
-      nome.value = "";
-      email.value = "";
-      date.value = "";
-      hora.value = "";
-      obs.value = "";
-
-      alert("Formulário enviado com sucesso!");
-    } else {
-      throw new Error("Falha no envio do formulário");
-    }
-  } catch (error) {
-    alert("Erro ao enviar formulário: " + error.message);
-  }
-};
+//   if (response.ok) {
+//     alert("Formulário enviado com sucesso!");
+//     // Limpar os campos
+//     nome.value = "";
+//     email.value = "";
+//     date.value = "";
+//     hora.value = "";
+//     obs.value = "";
+//   } else {
+//     alert("Houve um erro ao enviar o formulário.");
+//   }
+// };
 </script>
 
 <style scoped>

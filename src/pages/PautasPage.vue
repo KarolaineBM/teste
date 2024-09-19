@@ -18,184 +18,115 @@
           </div>
         </div>
 
-        <!-- Pautas -->
-        <div class="row">
-          <div class="col-md-12 col-xs-12">
-            <q-carousel
-              v-model="slide"
-              transition-prev="scale"
-              transition-next="scale"
-              animated
-              control-color="black"
-              arrows
-              class="bg-white rounded-borders carousel-container"
-              style="max-width: 1200px; margin: 0 auto"
+        <div class="row justify-center q-mt-xl movimento-L">
+          <div class="col-md-8 col-xs-12 text-white">
+            <q-list
+              bordered
+              class="rounded-borders bg-primary q-pa-md"
+              style="border-radius: 50px"
             >
-              <q-carousel-slide name="style" class="no-wrap flex-center">
-                <div class="carousel-text-container">
-                  <span class="text-subtitle1">
-                    Pressa. <br /><br />
-                    Temos pressa de viver. Pressa em resolver as coisas. <br />
-                    Pressa de que tudo aconteça no nosso tempo. <br />
-                    Pressa de que a dor passe. Pressa de que ferida cure.
+              <q-expansion-item
+                expand-separator
+                header-class="text-h6"
+                label="Pressa"
+                caption="Dra. Aressa Fernandes"
+              >
+                <q-card class="text-secondary" style="border-radius: 50px">
+                  <q-card-section class="text-center">
+                    Temos pressa de viver. <br />
+                    Pressa em resolver as coisas.<br />
+                    Pressa de que tudo aconteçam no nosso tempo.<br />
+                    Pressa de que a dor passe.<br />
+                    Pressa de que ferida cure.<br />
                     <br /><br />
-                    Mas e o preço que pagamos por ter tanta pressa? <br />
-                    E ansiedade que vai se instalando cada vez mais? <br />
+                    Mas e o preço que pagamos por ter tanta pressa?<br />
+                    E ansiedade que vai se instalando cada vez mais?<br />
                     E o barulho que a sua mente faz na madrugada de uma noite
-                    silenciosa? <br />
-                    E o simples da vida que acaba passando despercebido?
+                    silenciosa?<br />
+                    E o simples da vida que acaba passando despercebido ?<br />
                     <br /><br />
-                    Se atente às suas pressas. <br />
-                    O tempo é o que você tem de mais valioso. <br /><br />
-                    O que você tem feito do seu tempo? <br /><br />
-                    Na ânsia de que a vida passe, acredite: <br />
-                    ela vai passar! <br />
+                    Se atente às suas pressas.<br />
+                    O tempo é o que você tem de mais valioso.<br />
+                    <br /><br />
+                    O que você tem feito do seu tempo?<br />
+                    <br /><br />
+                    Na ânsia de que a vida passe, acredite:<br />
+                    ela vai passar!<br />
                     Se encarregue de desfrutar o caminho cuidando para que um
-                    dia sua pressa não se torne saudade. <br /><br />
-                    O tempo não para. <br />
-                    Desacelera! <br />
-                    Permita-se respirar. Se faça presente no “aqui e agora”,
-                    AGORA! <br />
-                    Domine a sua ânsia antes que ela domine você.
-                  </span>
-                </div>
-              </q-carousel-slide>
-
-              <q-carousel-slide name="tv" class="flex-center">
-                <div class="carousel-text-container">
-                  <span>
-                    Qual a sua dor? <br />
-                    O que você sente que ninguém pode ver? <br />
-                    Você já falou sobre isso com alguém? <br /><br />
-                    Calma, as coisas vão se ajeitar. <br />
-                    Isso também vai passar. <br />
-                    Se existir bagunça, arrume no seu tempo, mas não se demore.
-                    <br />
-                    Se existir barulho, silencie para escutar a verdadeira voz
-                    que vem de dentro. <br /><br />
-                    Eu estarei aqui com você, se precisar. <br />
-                    Mais saúde pra sua mente é o que eu desejo a você.
-                  </span>
-                </div>
-              </q-carousel-slide>
-
-              <q-carousel-slide name="layers" class="flex-center">
-                <q-icon name="layers" size="56px" />
-                <div class="carousel-text-container">
-                  {{ lorem }}
-                </div>
-              </q-carousel-slide>
-
-              <q-carousel-slide name="map" class="flex-center">
-                <q-icon name="terrain" size="56px" />
-                <div class="carousel-text-container">
-                  {{ lorem }}
-                </div>
-              </q-carousel-slide>
-            </q-carousel>
-            <!-- <div class="row">
-              <div class="col-md col-xs-12">
-                <span class="quote"
-                  >Pressa. <br /><br />
-                  Temos pressa de viver. Pressa em resolver as coisas.
-                  <br />
-                  Pressa de que tudo aconteçam no nosso tempo.
-                  <br />Pressa de que a dor passe. Pressa de que ferida cure.
-                  <br /><br />
-
-                  Mas e o preço que pagamos por ter tanta pressa?
-                  <br />E ansiedade que vai se instalando cada vez mais? <br />E
-                  o barulho que a sua mente faz na madrugada de uma noite
-                  silenciosa? <br />E o simples da vida que acaba passando
-                  despercebido ? <br /><br />
-
-                  Se atente às suas pressas.
-                  <br />
-                  O tempo é o que você tem de mais valioso.
-                  <br /><br />
-
-                  O que você tem feito do seu tempo?
-
-                  <br /><br />
-
-                  Na ânsia de que a vida passe, acredite:
-                  <br />
-                  ela vai passar!
-                  <br />Se encarregue de desfrutar o caminho cuidando para que
-                  um dia sua pressa não se torne saudade.
-
-                  <br /><br />
-
-                  O tempo não para.
-                  <br />
-                  Desacelera!
-                  <br />Permita-se respirar. Se faça presente no “aqui e agora”,
-                  AGORA! <br />Domine a sua ânsia antes que ela domine
-                  você.</span
-                >
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md col-xs-12">
-                <span class="quote"
-                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Expedita, ex similique. Expedita tenetur omnis necessitatibus
-                  fuga fugit perferendis dolore nisi, nesciunt assumenda iusto,
-                  nobis nulla eligendi. Qui cumque quas architecto.</span
-                >
-              </div>
-            </div> -->
+                    dia sua pressa não se torne saudade.<br />
+                    <br /><br />
+                    O tempo não para.<br />
+                    Desacelera!<br />
+                    Permita-se respirar.<br />
+                    Se faça presente no “aqui e agora”, AGORA!<br />
+                    Domine a sua ânsia antes que ela domine você.<br />
+                  </q-card-section>
+                </q-card>
+              </q-expansion-item>
+            </q-list>
           </div>
-
-          <!-- <div class="col-md col-xs-12 q-gutter-lg">
-            <div class="row">
-              <div class="col-md col-xs-12">
-                <span class="quote"
-                  >Qual a sua dor ?<br />
-                  O que você sente que ninguém pode ver ?<br />
-                  Você ja falou sobre isso com alguém?<br />
-                  <br /><br />
-                  Calma, as coisas vão se ajeitar.<br />
-                  Isso também vai passar.<br />
-                  Se existir bagunça, arrume no seu tempo<br />
-                  mas não se demore.<br />
-                  Se existir barulho, silencie pra escutar a verdadeira voz que
-                  vem de dentro.<br />
-                  <br /><br />
-                  Eu estarei aqui com você, se precisar.<br />
-                  Mais saúde pra sua mente é o que eu desejo a você.</span
-                >
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md col-xs-12">
-                <span class="quote"
-                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Expedita, ex similique. Expedita tenetur omnis necessitatibus
-                  fuga fugit perferendis dolore nisi, nesciunt assumenda iusto,
-                  nobis nulla eligendi. Qui cumque quas architecto.</span
-                >
-              </div>
-            </div>
-          </div> -->
         </div>
 
-        <!-- imagens -->
-        <!-- <div class="row q-mt-lg q-gutter-md">
-          <dic class="col-md-12">
-            <q-carousel swipeable animated v-model="slideI" thumbnails infinite>
-              <q-carousel-slide
-                :name="1"
-                img-src="~assets/logoRedondaBrancaT.png"
-              />
-              <q-carousel-slide :name="2" img-src="~assets/logoVerde.png" />
-              <q-carousel-slide :name="3" img-src="~assets/sobre2.jpeg" />
-              <q-carousel-slide :name="4" img-src="~assets/sobre.jpeg" />
-            </q-carousel>
-          </dic>
+        <div class="row justify-center q-mt-md movimento-R">
+          <div class="col-md-8 col-xs-12 text-white">
+            <q-list
+              bordered
+              class="rounded-borders bg-primary q-pa-md"
+              style="border-radius: 50px"
+            >
+              <q-expansion-item
+                expand-separator
+                header-class="text-h6"
+                label="Qual a sua dor?"
+                caption="Dra. Aressa Fernandes"
+              >
+                <q-card class="text-secondary" style="border-radius: 50px">
+                  <q-card-section class="text-center">
+                    Qual a sua dor? <br />
+                    O que você sente que ninguém pode ver?<br />
+                    Você ja falou sobre isso com alguém?<br />
+                    <br /><br />
+                    Calma, as coisas vão se ajeitar.<br />
+                    Isso também vai passar.<br />
+                    Se existir bagunça, arrume no seu tempo<br />
+                    mas não se demore.<br />
+                    Se existir barulho, silencie pra escutar a verdadeira voz
+                    que vem de dentro.<br />
+                    <br /><br />
+                    Eu estarei aqui com você, se precisar.<br />
+                    Mais saúde pra sua mente é o que eu desejo a você.<br />
+                  </q-card-section>
+                </q-card>
+              </q-expansion-item>
+            </q-list>
+          </div>
+        </div>
 
-        </div> -->
+        <div class="row justify-center q-mt-md movimento-L">
+          <div class="col-md-8 col-xs-12 text-white">
+            <q-list
+              bordered
+              class="rounded-borders bg-primary q-pa-md"
+              style="border-radius: 50px"
+            >
+              <q-expansion-item
+                expand-separator
+                header-class="text-h6"
+                label="Pauta"
+                caption="Dra. Aressa Fernandes"
+              >
+                <q-card class="text-secondary" style="border-radius: 50px">
+                  <q-card-section>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quidem, eius reprehenderit eos corrupti commodi magni
+                    quaerat ex numquam, dolorum officiis modi facere maiores
+                    architecto suscipit iste eveniet doloribus ullam aliquid.
+                  </q-card-section>
+                </q-card>
+              </q-expansion-item>
+            </q-list>
+          </div>
+        </div>
       </div>
     </div>
   </q-page>
