@@ -55,14 +55,14 @@
               </li></span
             >
 
-            <span> Os atendimentos são aos sábados das 07:00 s 18:00.</span>
+            <span> Os atendimentos são aos sábados das 07:00 às 18:00.</span>
           </div>
         </div>
 
         <!-- Formulário -->
 
         <div class="row q-mt-lg justify-center">
-          <span class="text-h6 text-secondary">Formulário para contato</span>
+          <span class="text-h6 text-secondary">Formulário</span>
         </div>
 
         <div class="row q-mt-md justify-center">
