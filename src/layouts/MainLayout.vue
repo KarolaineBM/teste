@@ -83,14 +83,14 @@
         <q-item clickable v-ripple>
           <q-item-section>
             <a href="/agendamentos" class="custom-link-mobile text-h6"
-              >Método</a
+              >Agendamentos</a
             >
           </q-item-section>
         </q-item>
         <q-item clickable v-ripple>
           <q-item-section>
             <a href="/localizacao" class="custom-link-mobile text-h6"
-              >Consulta</a
+              >Localização</a
             >
           </q-item-section>
         </q-item>
