@@ -20,7 +20,9 @@
 
         <!-- Atendimentos -->
         <div class="row justify-center q-gutter-md q-mt-lg">
-          <div class="col-md-5 movimento-L self-center">
+          <div
+            class="col-md-5 col-xs-10 justify-center movimento-L self-center"
+          >
             <div class="row q-mb-xl">
               <div class="col-md">
                 <span class="text-subtitle1 text-primary"
