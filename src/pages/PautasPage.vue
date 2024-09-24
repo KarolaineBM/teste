@@ -102,7 +102,7 @@
           </div>
         </div>
 
-        <div class="row justify-center q-mt-md movimento-L">
+        <!-- <div class="row justify-center q-mt-md movimento-L">
           <div class="col-md-8 col-xs-12 text-white">
             <q-list
               bordered
@@ -116,7 +116,7 @@
                 caption="Dra. Aressa Fernandes"
               >
                 <q-card class="text-secondary" style="border-radius: 50px">
-                  <q-card-section>
+                  <q-card-section class="text-center">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quidem, eius reprehenderit eos corrupti commodi magni
                     quaerat ex numquam, dolorum officiis modi facere maiores
@@ -126,7 +126,7 @@
               </q-expansion-item>
             </q-list>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </q-page>
