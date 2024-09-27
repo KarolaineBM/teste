@@ -18,7 +18,55 @@
           </div>
         </div>
 
-        <div class="row justify-center q-mt-xl movimento-L">
+        <div class="row justify-center q-mt-xl movimento-R">
+          <div class="col-md-8 col-xs-12 text-white">
+            <q-list
+              bordered
+              class="rounded-borders bg-primary q-pa-md"
+              style="border-radius: 50px"
+            >
+              <q-expansion-item
+                expand-separator
+                header-class="text-h6"
+                label="Autorresponsabilidade"
+                caption="Dra. Aressa Fernandes"
+              >
+                <q-card class="text-secondary" style="border-radius: 50px">
+                  <q-card-section class="text-center">
+                    Compreender que o seu presente é o reflexo das suas escolhas
+                    e que o seu futuro depende das boas escolhas que você faz no
+                    presente.<br /><br />
+
+                    Tomar ciência de que o que você faz (e também o que deixa de
+                    fazer) reflete diretamente no seu posicionamento e,
+                    consequentemente, na maneira em que você é tratado.<br /><br />
+
+                    Você ensina às pessoas o que tolera, à medida que se
+                    posiciona ou não diante de uma situação.<br /><br />
+
+                    Trazer pra si o controle dos eventos que acontecem,
+                    entendendo que nem todas as coisas dependem de você mas que
+                    aquelas que dependerem é você quem terá que resolver. Sem
+                    terceirizar.<br /><br />
+
+                    Pegar o leme.<br />
+                    Mostrar a direção do caminho.<br />
+                    Recalcular a rota quando necessário.<br />
+                    Aceitar ou não.<br />
+                    Fazer escolhas que refletem os seus valores.<br />
+                    Lidar com as consequências delas.<br />
+                    <br /><br />
+                    Compreender que a sua jornada é somente sua e que a
+                    capacidade em assumir esse controle é uma habilidade valiosa
+                    para quem quer aprender a lidar com as próprias emoções.
+                  </q-card-section>
+                </q-card>
+              </q-expansion-item>
+            </q-list>
+          </div>
+        </div>
+
+        <div class="row justify-center q-mt-md movimento-L">
           <div class="col-md-8 col-xs-12 text-white">
             <q-list
               bordered
@@ -102,7 +150,8 @@
           </div>
         </div>
 
-        <!-- <div class="row justify-center q-mt-md movimento-L">
+        <!--
+        <div class="row justify-center q-mt-md movimento-L">
           <div class="col-md-8 col-xs-12 text-white">
             <q-list
               bordered
