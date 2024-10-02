@@ -18,7 +18,61 @@
           </div>
         </div>
 
-        <div class="row justify-center q-mt-xl movimento-R">
+        <div class="row justify-center q-mt-xl movimento-L">
+          <div class="col-md-8 col-xs-12 text-white">
+            <q-list
+              bordered
+              class="rounded-borders bg-primary q-pa-md"
+              style="border-radius: 50px"
+            >
+              <q-expansion-item
+                expand-separator
+                header-class="text-h6"
+                label="Bem-se-queira"
+                caption="Dra. Aressa Fernandes"
+              >
+                <q-card class="text-secondary" style="border-radius: 50px">
+                  <q-card-section class="text-center">
+                    Se queira bem a ponto de saber a hora <br />
+                    de encerrar alguns ciclos.<br />
+                    A ponto de saber se retirar quando aquele ambiente<br />
+                    já não lhe couber mais.<br />
+                    A ponto de se respeitar.<br />
+                    <br /><br />
+                    Se queira bem<br />
+                    a ponto de saber diferenciar quem também te quer bem de quem
+                    te quer bem só quando lhe convém.<br />
+                    A ponto de fazer questão de continuar sendo você, ainda que
+                    tentem te mudar - sutilmente - nas entrelinhas do dia a dia.
+                    <br />
+                    <br />
+                    Bem-se-queira de verdade,<br />
+                    a ponto de não se contentar com migalhas de afeto e atenção,
+                    de não aceitar pouco e de não se diminuir pra tentar se
+                    encaixar no universo de alguém.
+                    <br /><br />
+                    Olhe ao seu redor.<br />
+                    Observe quem caminha ao teu lado.<br />
+                    Quem corre com você te faz leve ou traz peso pra tua
+                    caminhada?<br />
+                    Te ilumina ou ofusca o teu brilho mais bonito ?
+                    <br />
+                    <br />
+                    Se liberte das prisões sem grade.<br />
+                    Aprenda a ser só para, então, ser junto.
+                    <br />
+                    <br />
+
+                    Antes só do que mal-acompanhado.<br />
+                    Antes SOL, do que mal iluminado.<br />
+                  </q-card-section>
+                </q-card>
+              </q-expansion-item>
+            </q-list>
+          </div>
+        </div>
+
+        <div class="row justify-center q-mt-md movimento-R">
           <div class="col-md-8 col-xs-12 text-white">
             <q-list
               bordered
