@@ -18,7 +18,58 @@
           </div>
         </div>
 
-        <div class="row justify-center q-mt-xl movimento-L">
+        <div class="row justify-center q-mt-xl movimento-R">
+          <div class="col-md-8 col-xs-12 text-white">
+            <q-list
+              bordered
+              class="rounded-borders bg-primary q-pa-md"
+              style="border-radius: 50px"
+            >
+              <q-expansion-item
+                expand-separator
+                header-class="text-h6"
+                label="Sobre atenção"
+                caption="Dra. Aressa Fernandes"
+              >
+                <q-card class="text-secondary" style="border-radius: 50px">
+                  <q-card-section class="text-center">
+                    Qual a direção do teu olhar?<br />
+                    Ao que você tem dado atenção?
+                    <br /><br />
+
+                    Lembre-se sempre que tudo aquilo que a gente alimenta,
+                    cresce.<br />
+                    Isso serve pra pensamentos, sentimentos, flores e
+                    conexões.<br />
+                    E não se esqueça de que o contrário também é verdadeiro:
+                    tudo aquilo que deixamos de regar,<br />
+                    com o tempo, morre.
+                    <br /><br />
+                    Atente-se às suas escolhas.<br />
+                    Seja seletivo com o que verdadeiramente merece a sua
+                    atenção.<br />
+                    Escolha quais guerras você realmente precisa travar e quais
+                    as que você tem travado, sem precisar.<br />
+                    Sempre que puder: se poupe!
+                    <br /><br />
+                    Step by step 👣
+                    <br /><br />
+                    Seja leve, mas pise firme.<br />
+                    Respeitar os seus limites não é se limitar, presta
+                    atenção!<br />
+                    Leva contigo as tuas prioridades mas não deixe de ser
+                    flexível quando sentir que é hora de muda-las.
+                    <br /><br />
+                    Atenção ao que você tem dado atenção.<br />
+                    Atente-se aos teus sinais.<br />
+                  </q-card-section>
+                </q-card>
+              </q-expansion-item>
+            </q-list>
+          </div>
+        </div>
+
+        <div class="row justify-center q-mt-md movimento-L">
           <div class="col-md-8 col-xs-12 text-white">
             <q-list
               bordered
