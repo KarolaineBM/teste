@@ -18,7 +18,159 @@
           </div>
         </div>
 
+        <!-- Encerramento de ciclos -->
         <div class="row justify-center q-mt-xl movimento-R">
+          <div class="col-md-8 col-xs-12 text-white">
+            <q-list
+              bordered
+              class="rounded-borders bg-primary q-pa-md"
+              style="border-radius: 50px"
+            >
+              <q-expansion-item
+                expand-separator
+                header-class="text-h6"
+                label="Encerramento de ciclos"
+                caption="Dra. Aressa Fernandes"
+              >
+                <q-card class="text-secondary" style="border-radius: 50px">
+                  <q-card-section class="text-center">
+                    A gente sente quando é a hora. <br />
+                    No fundo, a gente sente.
+                    <br /><br />
+                    Respeitar os seus desconfortos.<br />
+                    Entender que nem sempre o lugar que estamos<br />
+                    é o lugar em que deveríamos estar.<br />
+                    Perceber o incomodo como a sinalização da necessidade de
+                    mudança.
+                    <br /><br />
+                    À medida em que evoluímos,<br />
+                    lugares, pessoas e relações já não pertencem mais a quem
+                    temos nos tornado e a quem ainda iremos nos tornar.
+                    <br /><br />
+                    Aceitar a mudança como progresso.<br />
+                    Enxergar as inúmeras novas oportunidades que a vida tem a
+                    lhe oferecer.<br />
+                    Ser grato pelo que foi.<br />
+                    Guardar na memória os bons sentimentos que fizeram morada
+                    por algum tempo.<br />
+                    Compreender a rotatividade da vida como processo natural de
+                    evolução e não resistir a ele.
+                    <br /><br />
+                    Coragem para encerrar esse ciclo que te distancia de quem
+                    você é.<br />
+                    Coragem para seguir em frente, com o coração leve apesar da
+                    dor.<br />
+                    Permitir-se sentir o luto mas não deixar que ele o paralise.
+                    <br /><br />
+                    A vida sempre continua.
+                  </q-card-section>
+                </q-card>
+              </q-expansion-item>
+            </q-list>
+          </div>
+        </div>
+
+        <!-- Se busque -->
+        <div class="row justify-center q-mt-md movimento-L">
+          <div class="col-md-8 col-xs-12 text-white">
+            <q-list
+              bordered
+              class="rounded-borders bg-primary q-pa-md"
+              style="border-radius: 50px"
+            >
+              <q-expansion-item
+                expand-separator
+                header-class="text-h6"
+                label="Se busque"
+                caption="Dra. Aressa Fernandes"
+              >
+                <q-card class="text-secondary" style="border-radius: 50px">
+                  <q-card-section class="text-center">
+                    Quem é você hoje ? <br />
+                    Você é, de fato, quem gostaria ser ?<br />
+                    Como você se sente quando olha pra dentro de si e enxerga a
+                    verdade que carrega dentro do seu coração?<br />
+                    Você se conhece?
+                    <br /><br />
+                    Reconheça quem você é.<br />
+                    Qual a sua verdadeira essência.<br />
+                    O que te preenche.<br />
+                    O que te faz querer ser melhor.<br />
+                    Quem te faz querer ser melhor.<br />
+                    Quem ficará pelo caminho e quem permanecerá nele.
+                    <br /><br />
+                    Se busque.
+                    <br /><br />
+                    Procure se reconectar com você mesmo.<br />
+                    Coloque suas atitudes em concordância com o seu propósito e
+                    alinhadas com os seus valores.<br />
+                    Enfrente seus medos.<br />
+                    Domine seus dragões.<br />
+                    Faça as pazes com as suas dores e encontre meios para se
+                    curar das suas inúmeras feridas.
+                    <br /><br />
+                    Se encontre.<br />
+                    Que você continue na busca de si mesmo,<br />
+                    até se encontrar na sua melhor versão e que você se orgulhe
+                    dela.<br />
+                    No final das contas, só você sabe o que o espelho reflete
+                    quando mostra a verdade da sua alma.
+                  </q-card-section>
+                </q-card>
+              </q-expansion-item>
+            </q-list>
+          </div>
+        </div>
+
+        <!-- Cura -->
+        <div class="row justify-center q-mt-md movimento-R">
+          <div class="col-md-8 col-xs-12 text-white">
+            <q-list
+              bordered
+              class="rounded-borders bg-primary q-pa-md"
+              style="border-radius: 50px"
+            >
+              <q-expansion-item
+                expand-separator
+                header-class="text-h6"
+                label="Cura"
+                caption="Dra. Aressa Fernandes"
+              >
+                <q-card class="text-secondary" style="border-radius: 50px">
+                  <q-card-section class="text-center">
+                    Um processo lento e doloroso. <br />
+                    Leva tempo.<br />
+                    Exige calma pra quem tem pressa.
+                    <br /><br />
+                    Restauração.<br />
+                    Resiliência.<br />
+                    Recuperação.
+                    <br /><br />
+                    Desconstruir-se quebrado<br />
+                    e reconstruir-se em um novo formato.<br />
+                    O que você fez com aquilo que fizeram com você?
+                    <br /><br />
+                    Entender a mensagem através das entrelinhas.<br />
+                    Questionar-se o que isso tinha a lhe ensinar.<br />
+                    Aprender.
+                    <br /><br />
+                    É no meio da crise que você descobre a sua força.<br />
+                    É através da dor que você se transforma na sua melhor
+                    versão.<br />
+                    Não desista de você.
+                    <br /><br />
+                    Quando você finalmente se curar irá perceber que aquilo que
+                    você pensava que iria te destruir, na verdade, te fez mais
+                    forte.
+                  </q-card-section>
+                </q-card>
+              </q-expansion-item>
+            </q-list>
+          </div>
+        </div>
+
+        <!-- Sobre atenção -->
+        <div class="row justify-center q-mt-md movimento-R">
           <div class="col-md-8 col-xs-12 text-white">
             <q-list
               bordered
@@ -69,6 +221,7 @@
           </div>
         </div>
 
+        <!-- Bem-se-queira -->
         <div class="row justify-center q-mt-md movimento-L">
           <div class="col-md-8 col-xs-12 text-white">
             <q-list
@@ -123,6 +276,7 @@
           </div>
         </div>
 
+        <!-- Autorresponsabilidade -->
         <div class="row justify-center q-mt-md movimento-R">
           <div class="col-md-8 col-xs-12 text-white">
             <q-list
@@ -171,6 +325,7 @@
           </div>
         </div>
 
+        <!-- Pressa -->
         <div class="row justify-center q-mt-md movimento-L">
           <div class="col-md-8 col-xs-12 text-white">
             <q-list
@@ -220,6 +375,7 @@
           </div>
         </div>
 
+        <!-- Qual a sua dor? -->
         <div class="row justify-center q-mt-md movimento-R">
           <div class="col-md-8 col-xs-12 text-white">
             <q-list
